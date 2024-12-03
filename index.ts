@@ -1,6 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
-import router from "./Routes/schoolRoutes";
+import router from "./api/schoolRoutes";
 
 const PORT=3000;
 const app = express();

@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/**/*.ts",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      { "src": "/api/addSchool", "dest": "api/schoolRoutes.ts" },
+      { "src": "/api/listSchools", "dest": "api/schoolRoutes.ts" }
+    ]
+  }
+  
